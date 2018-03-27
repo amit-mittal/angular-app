@@ -14,3 +14,4 @@ Till Step 3, your dev environment will be setup. Few observations:
     - And this is what makes it as single page application
 3. More changes done as per https://angular.io/tutorial/toh-pt1:
     - Adding &lt;app-heroes> won't work if added in index.html as it's not a bootstrap module which has been referenced through main.ts [TODO: confirm this] Even adding it to list of bootstrap in app.module.ts didn't help
+    - Two way binding can be validated by modifying the text in input field
