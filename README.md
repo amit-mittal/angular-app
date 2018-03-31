@@ -17,3 +17,10 @@ Till Step 3, your dev environment will be setup. Few observations:
     - Two way binding can be validated by modifying the text in input field
 4. Learnt about *ngFor, *ngIf, @Input, CSS classes during runtime
 5. Created a child component of the original Heroes component
+6. Introduced angular services in the app
+    - So far, the need of introducing service seems to be decoupling the data source (backend calls) and pure front-end i.e. deal with the data
+    - Services can be injected for testing and the same components can be re-used
+7. Routing in Angular app
+    - Export the RouterModule doesn't need import as well. Though it may not work but, it's because of different reason.
+    - In import, calling RouterModule.forRoot imports the module and calls the function at the same time.
+    - Adding Routing.forRoot in the constructor of routing module doesn't work. TODO: Can explore it
