@@ -23,4 +23,5 @@ Till Step 3, your dev environment will be setup. Few observations:
 7. Routing in Angular app
     - Export the RouterModule doesn't need import as well. Though it may not work but, it's because of different reason.
     - In import, calling RouterModule.forRoot imports the module and calls the function at the same time.
-    - Adding Routing.forRoot in the constructor of routing module doesn't work. TODO: Can explore it
+    - Adding Routing.forRoot in the constructor of routing module doesn't work. [TODO: Explore it]
+    - Passing parameters through the routing and navigation done
